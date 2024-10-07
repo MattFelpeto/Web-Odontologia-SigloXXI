@@ -1,0 +1,685 @@
+.contenedorPrincipal {
+    width: 100%;
+    display: grid;
+    position: absolute;
+    margin-top: -8px; 
+    margin-left: -8px;
+    background-image: url('./fondoWeb.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.Navbar {
+    width: 100%;
+    background-color: #47B2B6;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    position: static;
+}
+
+.navbar_ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 70px;
+}
+
+.a_ul {
+    color: rgb(255, 255, 255);
+    margin-right: 25px;
+    font-size: 20px;
+    padding-inline: 10px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none
+}
+
+.a_ul:hover {
+    color: rgb(26, 97, 179);
+}
+
+.navbar_image {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    margin-top: -90px;
+    margin-left: 120px;
+    border-radius: 40%;
+}
+
+
+.banner_image {
+    width: 100%;
+}
+
+.hr {
+    margin-top: 70px;
+    width: 70%;   
+    color: rgb(32, 32, 32);
+    height: 2px;
+    background-color: rgb(32, 32, 32);
+
+}
+
+.contenedorPrincipal_h1Cards {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    justify-content: center;
+    margin-top: 100px;
+ 
+}
+
+.seccionCards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.seccionCards_Cards {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+
+.Cards_imageRadio {
+    background-image: url('./imagenRadiografia.png');
+    background-size: cover;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 1);
+}
+
+.Cards_imageRadio:hover {
+    cursor: pointer;
+    background-image: url('./imagenBackRadiografia2.png');
+    background-size: cover;
+}
+
+.Cards_imageProtesis {
+    background-image: url('./imagenProtesis.png');
+    background-size: cover;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 1);
+}
+
+.Cards_imageProtesis:hover {
+    cursor: pointer;
+    background-image: url('./imagenBackRadiografia2.png');
+    background-size: cover;
+}
+
+.Cards_imageConsulta {
+    background-image: url('./imagenConsulta.png');
+    background-size: cover;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 1);
+}
+
+.Cards_imageConsulta:hover {
+    cursor: pointer;
+    background-image: url('./imagenBackRadiografia2.png');
+    background-size: cover;
+}
+
+.Cards_imageExtraccion {
+    background-image: url('./imagenExtraccion.png');
+    background-size: cover;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 1);
+}
+
+.Cards_imageExtraccion:hover {
+    cursor: pointer;
+    background-image: url('./imagenBackRadiografia2.png');
+    background-size: cover;
+}
+
+.Cards_imageBlanqueamiento {
+    background-image: url('./imagenBlanqueamiento.png');
+    background-size: cover;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 1);
+}
+
+.Cards_imageBlanqueamiento:hover {
+    cursor: pointer;
+    background-image: url('./imagenBackRadiografia2.png');
+    background-size: cover;
+}
+
+.Cards_imageImplante {
+    background-image: url('./imagenImplante.png');
+    background-size: cover;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 1);
+}
+
+.Cards_imageImplante:hover {
+    cursor: pointer;
+    background-image: url('./imagenBackRadiografia2.png');
+    background-size: cover;
+}
+
+
+
+
+
+.Cards_footer {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.Cards_p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+.contenedorCard {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cardDentista {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    margin-left: -30px;
+}
+
+.cardDentistaTexto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardDentista_Card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 50%;
+    align-items: center;
+    background-color: rgb(227, 241, 241);
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 1);
+}
+
+.cardDentista_imagen {
+    display: flex;
+    width: 100%;
+    outline-style: solid;
+    outline-color: rgb(221, 221, 221);
+
+}
+
+.cardDentista_texto {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.cardDentista_textoSolo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.contenedorTextoForm {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 29px;
+    margin-top: 30px;
+}
+
+.contenedorFormulario {
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.formulario_primeraColumna {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.formulario_segundaColumna {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-inline: 25px;
+}
+
+.primeraColumna_label {
+    align-self: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.segundaColumna_label {
+    align-self: flex-start;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#primeraColumna_input {
+    width: 65%;
+    height: 45px;
+    display: flex;
+    border-radius: 15px;
+    border-style: none;
+}
+
+#segundaColumna_input {
+    width: 75%;
+    height: 180px;   
+    display: flex;
+    border-radius: 15px;
+    border-style: none; 
+    margin-right: 50px;
+}
+
+.segundaColumna_boton {
+    width: 30%;
+    height: 40px;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+    margin-left: 24%;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    border-style: none; 
+}
+
+.segundaColumna_boton:hover {
+    cursor: pointer;
+    background-color: rgb(36, 66, 100);
+    color: white;
+}
+
+.contenedorMapa {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.ContenedorMapa_imagen {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.imagenMapa {
+    width: 85%;
+    height: 270px;
+    display: flex;
+    border-radius: 45px;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 1);
+}
+
+.contenedorMapa_direcciones {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.direcciones_sucursales {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footbar {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(70, 106, 122);
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footbar_imgIG {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    padding-inline: 10px;
+}
+
+.footbar_imgIG:hover {
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+}
+
+.footbar_imgWP {
+    display: flex;
+    width: 75px;
+    height: 75px;
+    padding-inline: 10px;
+}
+
+.footbar_imgWP:hover {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.footbar_a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    padding-inline: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+} 
+
+.footbar_a:hover {
+    color: rgb(36, 66, 100);
+}
+
+
+
+
+
+
+
+
+@media (min-width: 57px) and (max-width: 319px) {
+    
+    .navbar_image {
+        width: 150px;
+        height: 150px;
+        display: flex;
+        margin-top: -40px;
+        margin-left: 120px;
+        border-radius: 40%;
+    }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    
+
+    .navbar_ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .a_ul {
+        margin-left: 15px;
+        margin-right: -55px;
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+        padding-inline: 26px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .navbar_image {
+        width: 170px;
+        height: 170px;
+        display: flex;
+        margin-top: -30px;
+        margin-left: 6px;
+        border-radius: 50%;
+    }
+
+
+    .Cards_imageRadio {
+        background-image: url('./imagenRadiografia.png');
+        background-size: cover;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 1);
+    }
+
+    .Cards_imageProtesis {
+        background-image: url('./imagenProtesis.png');
+        background-size: cover;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 1);
+    }
+    
+    .Cards_imageConsulta {
+        background-image: url('./imagenConsulta.png');
+        background-size: cover;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 1);
+    }
+
+    .Cards_imageExtraccion {
+        background-image: url('./imagenExtraccion.png');
+        background-size: cover;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 1);
+    }
+
+    .Cards_imageBlanqueamiento {
+        background-image: url('./imagenBlanqueamiento.png');
+        background-size: cover;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 1);
+    }
+
+    .Cards_imageImplante {
+        background-image: url('./imagenImplante.png');
+        background-size: cover;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 1);
+    }
+
+    .contenedorPrincipal_h1Cards {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 27px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .contenedorPrincipal {
+        width: 150%;
+        display: grid;
+        position: absolute;
+        margin-top: -8px; 
+        margin-left: -8px;
+        background-image: url('./fondoWeb.png');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .contenedorTextoForm_texto {
+        font-size: 29px;
+        margin-bottom: 30px;
+    }
+
+    .primeraColumna_label {
+        align-self: center;
+        margin-bottom: 10px;
+        padding: 2px;
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .segundaColumna_label {
+        align-self: flex-start;
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .cardDentista_textoSolo {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    .cardDentista_texto {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 12px;
+    }
+
+    .imagenMapa {
+        width: 85%;
+        height: 210px;
+        display: flex;
+        border-radius: 45px;
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 1);
+    }
+
+    .direcciones_sucursales {
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .footbar {
+        display: flex;
+        width: 100%;
+        height: 80px;
+        background-color: rgb(70, 106, 122);
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .footbar_imgIG {
+        display: flex;
+        width: 35px;
+        height: 35px;
+        padding-inline: 10px;
+    }
+    
+    .footbar_imgWP {
+        display: flex;
+        width: 45px;
+        height: 45px;
+        padding-inline: 10px;
+    }
+    
+    .footbar_a {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        padding-inline: 10px;
+        color: wheat;
+        text-decoration: none;
+    }
+    
+  }
+
+  
+  @media (min-width: 768px) and (max-width: 1024px)  {
+    .contenedorPrincipal {
+        width: 100%;
+        position: absolute;
+        margin-top: -8px; 
+        margin-left: -8px;
+    }
+
+    .Navbar {
+        width: 100%;
+        background-color: rgb(126, 192, 192);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
+        position: static;
+    }
+
+    .navbar_image {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        margin-top: -60px;
+        margin-left: 40px;
+        border-radius: 50%;
+    }
+
+    .Cards_image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .cardDentista_textoSolo {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        padding: 10px;
+    }
+  }
+
+  @media (min-width: 484px) and (max-width: 767px) {
+
+    .contenedorPrincipal {
+        width: 100%;
+        position: absolute;
+        margin-top: -8px; 
+        margin-left: -8px;
+    }
+
+  }
+
+  @media (min-width: 1025px) and (max-width: 1189px) {
+
+    .navbar_image {
+        width: 250px;
+        height: 250px;
+        display: flex;
+        margin-top: -80px;
+        margin-left: 40px;
+        border-radius: 50%;
+    }
+
+  }

@@ -1,0 +1,24 @@
+.container-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.mapa-sedes {
+    width: 90%;
+    height: 300px;    
+    display: flex;
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 1);
+
+}
+
+
+@media (max-width: 768px) {
+    .mapa-sedes {
+        width: 100.9%;
+    }
+}
